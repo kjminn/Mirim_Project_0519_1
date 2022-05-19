@@ -43,24 +43,63 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ff0000"
+            android:padding="20dp"
             android:orientation="vertical">
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="Park-Hana"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/parkhana"/>
         </LinearLayout>
         <LinearLayout
             android:id="@+id/linear_yellow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffff00"
+            android:padding="20dp"
             android:orientation="vertical">
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Lim-Suhang"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/limsuhang"/>
         </LinearLayout>
         <LinearLayout
             android:id="@+id/linear_blue"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#0000ff"
+            android:padding="20dp"
             android:orientation="vertical">
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="Sunghoon"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/sunghoon"/>
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>
